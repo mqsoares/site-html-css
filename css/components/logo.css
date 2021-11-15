@@ -1,0 +1,14 @@
+.logo{
+  background-color: #70A1FF;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  box-shadow: 5px 5px 0 #000;
+  transition: transform 50ms linear;
+
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}

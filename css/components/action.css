@@ -1,0 +1,20 @@
+.action{
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: transform 50ms linear;
+}
+
+.action:hover {
+  transform: scale(1.05);
+}
+
+.marker::before{
+  content: "";
+  background-color: #70A1FF;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
